@@ -50,7 +50,7 @@ public class UserController {
             return ResponseEntity.status(HttpStatus.ACCEPTED).build();
         }
         catch(RuntimeException e){
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Você não pode apagar o seu amiguinho!");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Você não pode apagar o seu colega!");
         }
     }
 
